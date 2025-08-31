@@ -47,7 +47,7 @@ export default function Testimonials() {
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-black mb-6">
               What People Are Saying
             </h2>
-            <div className="w-16 h-0.5 bg-accent-coral mx-auto mb-8"></div>
+            <div className="w-16 h-0.5 bg-red-500 mx-auto mb-8"></div>
             <p className="text-xl text-black max-w-2xl mx-auto font-sans font-light">
               Don&apos;t just take our word for it - hear from our happy customers!
             </p>
@@ -81,7 +81,7 @@ export default function Testimonials() {
               href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-brand-yellow hover:bg-brand-yellow-alt text-brand-dark-azure px-8 py-4 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="inline-flex items-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-blue-900 px-8 py-4 rounded-lg font-medium transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Order Now
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

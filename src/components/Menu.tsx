@@ -36,7 +36,7 @@ export default function Menu() {
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-black mb-6">
               Our Menu
             </h2>
-            <div className="w-16 h-0.5 bg-accent-coral mx-auto mb-8"></div>
+            <div className="w-16 h-0.5 bg-red-500 mx-auto mb-8"></div>
             <p className="text-xl text-black max-w-3xl mx-auto mb-12 font-sans font-light leading-relaxed">
               Fresh blue crabs and authentic Key West seafood, prepared with care and served with pride.
             </p>
@@ -46,7 +46,7 @@ export default function Menu() {
               href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-accent-blue hover:bg-blue-600 text-white px-8 py-4 rounded-md font-medium transition-colors duration-200"
+              className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-md font-medium transition-colors duration-200"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
@@ -92,7 +92,7 @@ export default function Menu() {
                           />
                         )}
                         {item.featured && (
-                          <div className="absolute top-4 left-4 bg-accent-coral text-white px-3 py-1 rounded-full text-sm font-medium z-10">
+                          <div className="absolute top-4 left-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium z-10">
                             Signature
                           </div>
                         )}
@@ -118,7 +118,7 @@ export default function Menu() {
           <div className="text-center mt-12">
             <a 
               href="/full-menu"
-              className="inline-flex items-center gap-3 bg-brand-yellow hover:bg-brand-yellow-alt text-brand-dark-azure px-8 py-4 rounded-md font-medium transition-colors duration-200"
+              className="inline-flex items-center gap-3 bg-yellow-400 hover:bg-yellow-300 text-blue-900 px-8 py-4 rounded-md font-medium transition-colors duration-200"
             >
               See Our Full Menu
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -139,7 +139,7 @@ export default function Menu() {
               href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 bg-brand-dark-azure hover:bg-brand-azure text-white px-8 py-4 rounded-md font-medium transition-colors duration-200 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center gap-3 bg-blue-900 hover:bg-blue-800 text-white px-8 py-4 rounded-md font-medium transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Order Now
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
