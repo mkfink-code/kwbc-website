@@ -1,7 +1,4 @@
 {
-  "buildCommand": "cd key-west-blue-crab && npm run build",
-  "devCommand": "cd key-west-blue-crab && npm run dev",
-  "installCommand": "cd key-west-blue-crab && npm install",
-  "outputDirectory": "key-west-blue-crab/.next",
+  "rootDirectory": "key-west-blue-crab",
   "framework": "nextjs"
 }
