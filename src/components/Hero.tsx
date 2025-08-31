@@ -39,10 +39,10 @@ export default function Hero() {
           <div className="flex items-center justify-between">
             {/* Left Navigation Links */}
             <div className="hidden md:flex items-center gap-8">
-              <a href="#home" className="text-white hover:text-brand-yellow font-semibold text-lg tracking-wide transition-colors duration-200">
+              <a href="#home" className="text-white hover:text-yellow-400 font-semibold text-lg tracking-wide transition-colors duration-200">
                 Home
               </a>
-              <a href="#about" className="text-white hover:text-brand-yellow font-semibold text-lg tracking-wide transition-colors duration-200">
+              <a href="#about" className="text-white hover:text-yellow-400 font-semibold text-lg tracking-wide transition-colors duration-200">
                 Our Story
               </a>
             </div>
@@ -54,14 +54,14 @@ export default function Hero() {
             
             {/* Right Navigation Links */}
             <div className="hidden md:flex items-center gap-8">
-              <a href="#menu" className="text-white hover:text-brand-yellow font-semibold text-lg tracking-wide transition-colors duration-200">
+              <a href="#menu" className="text-white hover:text-yellow-400 font-semibold text-lg tracking-wide transition-colors duration-200">
                 Menu
               </a>
-              <a 
+              <a
                 href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-brand-yellow to-brand-yellow-alt hover:from-brand-yellow-alt hover:to-brand-yellow text-brand-dark-azure px-5 py-2 rounded-full font-bold text-base tracking-wide shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-300 hover:from-yellow-300 hover:to-yellow-400 text-blue-900 px-5 py-2 rounded-full font-bold text-base tracking-wide shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
               >
                 Order Now
               </a>
@@ -73,7 +73,7 @@ export default function Hero() {
                 href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-accent-coral hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 text-sm"
+                className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md font-medium transition-colors duration-200 text-sm"
               >
                 Order
               </a>
@@ -117,17 +117,17 @@ export default function Hero() {
               
               {/* Clean CTAs */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-                <a 
+                <a
                   href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-brand-yellow hover:bg-brand-yellow-alt text-brand-dark-azure px-6 py-3 rounded-md font-semibold transition-colors duration-200 text-center text-base"
+                  className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 px-6 py-3 rounded-md font-semibold transition-colors duration-200 text-center text-base"
                 >
                   Order Now
                 </a>
-                <a 
+                <a
                   href="#menu"
-                  className="border-2 border-brand-yellow text-brand-yellow hover:bg-brand-yellow hover:text-brand-dark-azure px-6 py-3 rounded-md font-semibold transition-colors duration-200 text-center text-base"
+                  className="border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-blue-900 px-6 py-3 rounded-md font-semibold transition-colors duration-200 text-center text-base"
                 >
                   See Our Menu
                 </a>
