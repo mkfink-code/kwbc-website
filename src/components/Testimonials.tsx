@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Testimonials() {
   const testimonials = [
     {
@@ -51,7 +49,7 @@ export default function Testimonials() {
             </h2>
             <div className="w-16 h-0.5 bg-accent-coral mx-auto mb-8"></div>
             <p className="text-xl text-black max-w-2xl mx-auto font-sans font-light">
-              Don't just take our word for it - hear from our happy customers!
+              Don&apos;t just take our word for it - hear from our happy customers!
             </p>
           </div>
           
@@ -68,7 +66,7 @@ export default function Testimonials() {
                 
                 {/* Review Text */}
                 <blockquote className="text-black font-sans leading-relaxed italic">
-                  "{testimonial.review}"
+                  &ldquo;{testimonial.review}&rdquo;
                 </blockquote>
               </div>
             ))}

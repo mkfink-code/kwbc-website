@@ -40,7 +40,7 @@ export default function SocialSection() {
                   Sign Our Truck
                 </h3>
                 <p className="text-lg text-black leading-relaxed mb-6 font-sans">
-                  When you visit us, don't forget to sign our truck and take a photo! 
+                  When you visit us, don&apos;t forget to sign our truck and take a photo! 
                   Share it on social media and tag us to spread the Key West love.
                 </p>
                 

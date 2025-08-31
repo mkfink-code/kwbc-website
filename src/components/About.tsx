@@ -29,7 +29,7 @@ export default function About() {
               <div className="space-y-6">
                 <h3 className="text-2xl font-serif font-medium text-black">Our Story</h3>
                 <p className="text-lg text-black leading-relaxed font-sans font-light">
-                  Born from Maryland's rich blue crab heritage, we've brought the time-honored techniques and flavors of the Chesapeake Bay to the pristine waters of the Florida Keys, creating a unique fusion of East Coast tradition and southern paradise.
+                  Born from Maryland&apos;s rich blue crab heritage, we&apos;ve brought the time-honored techniques and flavors of the Chesapeake Bay to the pristine waters of the Florida Keys, creating a unique fusion of East Coast tradition and southern paradise.
                 </p>
               </div>
               

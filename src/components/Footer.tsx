@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
               </div>
                                 <p className="text-neutral-300 leading-relaxed max-w-md font-sans">
-                    America's only year-round blue crab food truck, bringing you the freshest 
+                    America&apos;s only year-round blue crab food truck, bringing you the freshest 
                     seafood and authentic Key West flavors.
                   </p>
             </div>
