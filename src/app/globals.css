@@ -5,9 +5,14 @@
 :root {
   --background: #ffffff;
   --foreground: #072d3f;
+  /* Key West Blue Crab Brand Colors */
   --brand-dark-azure: #072d3f;
   --brand-yellow: #fefd01;
+  --brand-yellow-alt: #ffd91a;
+  --brand-dark-gray-green: #3a5832;
+  --brand-yellow-green: #879a20;
   --accent-coral: #ff6b6b;
+  /* Supporting neutrals */
   --neutral-50: #fafafa;
   --neutral-100: #f5f5f5;
   --neutral-200: #e5e5e5;
@@ -15,85 +20,80 @@
   --neutral-900: #171717;
 }
 
-body {
-  background: #ffffff;
-  color: #072d3f;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
+@layer base {
+  html {
+    font-family: Merriweather, 'Times New Roman', serif;
+  }
+
+  body {
+    @apply antialiased;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
 }
 
-/* Basic styling to ensure content is visible */
-h1, h2, h3, h4, h5, h6 {
-  color: #072d3f;
-  font-weight: bold;
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-6;
+  }
+
+  .section-padding {
+    @apply py-24;
+  }
+
+  .btn-primary {
+    @apply bg-yellow-400 hover:bg-yellow-300 text-blue-900 px-6 py-3 rounded-md font-semibold transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-blue-900 hover:bg-blue-800 text-white px-6 py-3 rounded-md font-semibold transition-colors duration-200;
+  }
 }
 
-p {
-  color: #072d3f;
-  margin-bottom: 1rem;
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
-a {
-  color: #fefd01;
-  text-decoration: none;
+/* Custom Tailwind classes */
+.text-brand-dark-azure { color: var(--brand-dark-azure); }
+.bg-brand-dark-azure { background-color: var(--brand-dark-azure); }
+.text-brand-yellow { color: var(--brand-yellow); }
+.bg-brand-yellow { background-color: var(--brand-yellow); }
+.border-brand-yellow { border-color: var(--brand-yellow); }
+.text-accent-coral { color: var(--accent-coral); }
+.bg-accent-coral { background-color: var(--accent-coral); }
+.bg-neutral-50 { background-color: var(--neutral-50); }
+.bg-neutral-100 { background-color: var(--neutral-100); }
+.bg-neutral-200 { background-color: var(--neutral-200); }
+.bg-neutral-800 { background-color: var(--neutral-800); }
+.bg-neutral-900 { background-color: var(--neutral-900); }
+.text-neutral-300 { color: var(--neutral-300); }
+.text-neutral-400 { color: var(--neutral-400); }
+.border-neutral-800 { border-color: var(--neutral-800); }
+
+/* Responsive image sizing */
+.aspect-square {
+  aspect-ratio: 1 / 1;
 }
 
-a:hover {
-  text-decoration: underline;
-}
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
 
-section {
-  padding: 2rem 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-/* Navigation styling */
-nav {
-  background: #072d3f;
-  color: white;
-  padding: 1rem;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-}
-
-/* Button styling */
-button, .btn, a[class*="px-"] {
-  background: #fefd01;
-  color: #072d3f;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-}
-
-button:hover, .btn:hover, a[class*="px-"]:hover {
-  background: #ffd91a;
-}
-
-/* Image styling */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Hide scrollbar */
-.scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
+  .section-padding {
+    @apply py-16;
+  }
 }
