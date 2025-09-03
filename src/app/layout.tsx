@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Merriweather, Source_Sans_3 } from "next/font/google";
+import { Caveat, Lato } from "next/font/google";
 import "./globals.css";
 
-const merriweather = Merriweather({
-  variable: "--font-merriweather",
+const caveat = Caveat({
+  variable: "--font-caveat",
   subsets: ["latin"],
-  weight: ["300", "400", "700", "900"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
+const lato = Lato({
+  variable: "--font-lato",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["300", "400", "700", "900"],
 });
 
 export const metadata: Metadata = {
@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${merriweather.variable} ${sourceSans.variable} antialiased font-sans`}
+        className={`${caveat.variable} ${lato.variable} antialiased font-sans`}
       >
         {children}
       </body>

@@ -21,8 +21,8 @@ module.exports = {
         'neutral-900': 'var(--neutral-900)',
       },
       fontFamily: {
-        'serif': ['Merriweather', 'Times New Roman', 'serif'],
-        'sans': ['Source Sans 3', 'system-ui', 'sans-serif'],
+        'serif': ['var(--font-caveat)', 'cursive', 'sans-serif'],
+        'sans': ['var(--font-lato)', 'system-ui', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
