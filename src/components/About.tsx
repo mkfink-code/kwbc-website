@@ -75,7 +75,7 @@ export default function About() {
                   href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 bg-primary-dark hover:bg-neutral-800 text-white px-8 py-4 rounded-md font-medium transition-colors duration-200"
+                  className="inline-flex items-center gap-3 bg-brand-dark-azure hover:bg-neutral-800 text-white px-8 py-4 rounded-md font-medium transition-colors duration-200"
                 >
                   Try Our Crabs
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

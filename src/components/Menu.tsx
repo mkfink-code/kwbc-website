@@ -14,7 +14,7 @@ export default function Menu() {
         {
           name: "Crab Cake Sandwich",
           description: "Fried 5 oz crab cake made with our fresh, jumbo lump crab meat and served on a toasted brioche bun. Includes choice of one side",
-          image: "/images/crab-cake-order.png"
+          image: "/images/updated crabcake.png"
         },
         {
           name: "Blue Crab Poke Bowl",

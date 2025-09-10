@@ -93,6 +93,34 @@ export default function SocialSection() {
               <div className="flex gap-6 overflow-x-auto pb-4 scrollbar-hide">
                 <div className="flex-shrink-0 w-80 h-64 rounded-xl overflow-hidden shadow-lg">
                   <Image
+                    src="/images/customer1.png"
+                    alt="Customer enjoying Key West Blue Crab"
+                    width={320}
+                    height={256}
+                    className="w-full h-full object-contain bg-neutral-100"
+                    priority
+                  />
+                </div>
+                <div className="flex-shrink-0 w-80 h-64 rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/images/skirts.png"
+                    alt="Customer enjoying Key West Blue Crab"
+                    width={320}
+                    height={256}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-80 h-64 rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/images/customer3.png"
+                    alt="Customer enjoying Key West Blue Crab"
+                    width={320}
+                    height={256}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-80 h-64 rounded-xl overflow-hidden shadow-lg">
+                  <Image
                     src="/images/customers.png"
                     alt="Happy customers enjoying Key West Blue Crab"
                     width={320}
@@ -108,15 +136,6 @@ export default function SocialSection() {
                     height={256}
                     className="w-full h-full object-cover"
                   />
-                </div>
-                {/* Placeholder for future images */}
-                <div className="flex-shrink-0 w-80 h-64 rounded-xl overflow-hidden shadow-lg bg-neutral-100 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-12 h-12 bg-neutral-200 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <span className="text-xl">📸</span>
-                    </div>
-                    <p className="text-black font-sans text-sm">More photos coming soon!</p>
-                  </div>
                 </div>
               </div>
               

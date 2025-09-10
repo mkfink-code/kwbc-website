@@ -79,7 +79,7 @@ export default function Contact() {
                   <div className="text-black space-y-1 text-sm font-sans">
                     <div className="flex justify-between gap-8 max-w-xs">
                       <span>Sunday:</span>
-                      <span>11 AM–7 PM</span>
+                      <span>11 AM–5 PM</span>
                     </div>
                     <div className="flex justify-between gap-8 max-w-xs">
                       <span>Monday:</span>

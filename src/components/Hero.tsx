@@ -54,7 +54,7 @@ export default function Hero() {
             
             {/* Right Navigation Links */}
             <div className="hidden md:flex items-center gap-8">
-              <a href="#menu" className="text-white hover:text-yellow-400 font-semibold text-lg tracking-wide transition-colors duration-200">
+              <a href="/full-menu" className="text-white hover:text-yellow-400 font-semibold text-lg tracking-wide transition-colors duration-200">
                 Menu
               </a>
               <a
@@ -126,7 +126,7 @@ export default function Hero() {
                   Order Now
                 </a>
                 <a
-                  href="#menu"
+                  href="/full-menu"
                   className="border-2 border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-blue-900 px-6 py-3 rounded-md font-semibold transition-colors duration-200 text-center text-base"
                 >
                   See Our Menu
