@@ -57,6 +57,9 @@ export default function Hero() {
               <a href="/full-menu" className="text-white hover:text-yellow-400 font-semibold text-lg tracking-wide transition-colors duration-200">
                 Menu
               </a>
+              <a href="#delivery" className="text-white hover:text-yellow-400 font-semibold text-lg tracking-wide transition-colors duration-200">
+                Delivery
+              </a>
               <a
                 href="https://key-west-blue-crab.square.site/#JW4YIN3E3FUICAD7XXVCTXUC"
                 target="_blank"

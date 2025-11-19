@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero'
 import Menu from '@/components/Menu'
+import Delivery from '@/components/Delivery'
 import About from '@/components/About'
 import SocialSection from '@/components/SocialSection'
 import Testimonials from '@/components/Testimonials'
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <About />
       <Menu />
+      <Delivery />
       <SocialSection />
       <Testimonials />
       <Contact />
