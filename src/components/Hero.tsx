@@ -90,7 +90,7 @@ export default function Hero() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="/images/crab-tray.png"
+            src="/images/foodtruck.png"
             alt="Fresh Key West Blue Crabs"
             fill
             className="object-cover"

@@ -26,7 +26,7 @@ export default function FullMenu() {
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
             <div className="flex justify-center">
               <Image
-                src="/images/menu.png"
+                src="/images/menu2.png"
                 alt="Key West Blue Crab Full Menu"
                 width={800}
                 height={1200}
